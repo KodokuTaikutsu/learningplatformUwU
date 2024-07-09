@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Courses</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/header_style.css">
+    <link rel="stylesheet" href="/CSS/main_style.css">
+
+    <script src="/JS/main.js" defer></script>
+    <script src="/JS/index_courses.js" ></script>
+   
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">OnlineCourses</div>
+        <nav>
+            <ul id="nav-buttons">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="/Courses.html">Courses</a></li>
+                <li id="loginbtn"><a href="/Login.html">Login</a></li>
+                <li id="signupbtn"><a id="signupbtn" href="/Signup.html">Sign Up </a></li>
+                <li id="user-dropdown" class="dropdown" style="display: none;">
+                    <a href="#" id="username" class="dropbtn"></a>
+                    <div class="dropdown-content">
+                        <a href="#" id="logout">Log Out</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="hero" id="home" data-title="Home">
+        <img src="/IMG/background.webp" alt="Hero Image" class="hero-image">
+        <div class="hero-content">
+            <h1>Learn from the Best</h1>
+            <p>Join our community of learners and start mastering new skills today!</p>
+            <a href="#courses" class="btn">Featured Courses</a>
+        </div>
+    </section>
+
+    <section class="about" id="about" data-title="About Us">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>Welcome to OnlineCourses, where we provide top-notch courses designed by industry experts to help you master new skills and advance your career. Our mission is to make quality education accessible to everyone, everywhere.</p>
+            <p>Join our community of learners today and start your journey towards success with our comprehensive course offerings.</p>
+        </div>
+    </section>
+    
+    <section class="courses" id="courses" data-title="Our Courses">
+        <h2>Featured Courses</h2>
+        <div class="course-list" id="course-list">
+            <!-- Courses will be dynamically inserted here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Memelords Incorporated. All souls reserved.</p>
+    </footer>
+
+</body>
+</html>
